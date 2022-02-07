@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "DS-DIGI";
+  src: url("./fonts/DS-DIGI.TTF");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "DS-DIGI";
+}
+
+body {
+  background-color: rgb(187, 183, 183);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+p {
+  font-size: 6em;
+}
+
+#ville {
+  font-size: 0.5em;
+}
